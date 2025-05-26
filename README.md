@@ -39,15 +39,15 @@ The model is a compartmental SIR-based model with two interacting populations: h
 
 ### Human Compartments:
 - $S_h$: Susceptible humans  
-- `I_h`: Infected humans  
-- `R_h`: Recovered humans  
+- $I_h$: Infected humans  
+- $R_h$: Recovered humans  
 
 ### Mosquito Compartments:
-- `S_m`: Susceptible mosquitoes  
-- `I_m`: Infected mosquitoes  
+- $S_m$: Susceptible mosquitoes  
+- $I_m$: Infected mosquitoes  
 
 ### Incidence:
-- `Inc`: Cumulative incidence in humans
+- $Inc$: Cumulative incidence in humans
 
 ##  Assumptions
 
@@ -63,10 +63,10 @@ The model is a compartmental SIR-based model with two interacting populations: h
 ## Parameter Classification
 
 - **Known parameters** (from demographic or biological assumptions):
-  - `μ_m`, `λ_m`, `λ_h`, `γ_h`
+  - $μ_m$, $λ_m$, $λ_h$, $γ_h$
 
 - **Unknown parameters** (estimated via curve fitting):
-  - `β_h`, `α_h`, `β_m`
+  - $β_h$, $α_h$, $β_m$
 
 ##  Files in This Repository
 
@@ -88,9 +88,9 @@ Final fitted parameter values:
 
 | Parameter | Estimate | 95% CI Lower | 95% CI Upper |
 |-----------|----------|--------------|--------------|
-| β_h       | 0.3793   | 0.2609       | 0.4976       |
-| β_m       | 5.9559   | 3.9608       | 7.9511       |
-| α_h       | 3.4479   | 2.4222       | 4.4736       |
+| $β_h$       | 0.3793   | 0.2609       | 0.4976       |
+| $β_m$       | 5.9559   | 3.9608       | 7.9511       |
+| $α_h$       | 3.4479   | 2.4222       | 4.4736       |
 
 ## Contact
 
