@@ -9,6 +9,30 @@ This project aims to:
 3. Fit the model to real-world malaria incidence data.
 4. Provide clear descriptions of the model compartments and parameters.
 
+## 🧮 Model
+
+The dynamics of the human and mosquito populations are governed by the following system of differential equations:
+
+$$
+\frac{dS_h}{dt} = \Lambda_h - \frac{\beta_h S_h I_m}{N_m} + \alpha_h R_h
+$$
+
+$$
+\frac{dI_h}{dt} = \frac{\beta_h S_h I_m}{N_m} - \gamma_h I_h
+$$
+
+$$
+\frac{dR_h}{dt} = \gamma_h I_h - \alpha_h R_h
+$$
+
+$$
+\frac{dS_m}{dt} = \Lambda_m - \frac{\beta_m S_m I_h}{N_h} - \mu_m S_m
+$$
+
+$$
+\frac{dI_m}{dt} = \frac{\beta_m S_m I_h}{N_h} - \mu_m I_m
+$$
+
 ##  Model Description
 
 The model is a compartmental SIR-based model with two interacting populations: humans and mosquitoes.
