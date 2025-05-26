@@ -38,7 +38,7 @@ $$
 The model is a compartmental SIR-based model with two interacting populations: humans and mosquitoes.
 
 ### Human Compartments:
-- `S_h`: Susceptible humans  
+- $S_h$: Susceptible humans  
 - `I_h`: Infected humans  
 - `R_h`: Recovered humans  
 
