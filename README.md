@@ -9,7 +9,7 @@ This project aims to:
 3. Fit the model to real-world malaria incidence data.
 4. Provide clear descriptions of the model compartments and parameters.
 
-## 🧮 Model
+## Model Equation
 
 The dynamics of the human and mosquito populations are governed by the following system of differential equations:
 
